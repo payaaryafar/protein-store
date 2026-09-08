@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Felamirca</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+                <div class="header__left">
+          <i class="fa fa-user header__icon" aria-hidden="true"></i>
+          <i class="fa fa-shopping-cart header__icon" aria-hidden="true"></i>
+                    <div class="header__search">
+            <input
+              class="header__search-input"
+              type="search"
+              placeholder="جستجو..."
+              dir="rtl"
+            />
+            <i class="fa fa-search header__search-icon" aria-hidden="true"></i>
+          </div>
+        </div>
+    <span class="header__divider"></span>
+                <nav class="header__nav">
+          <ul class="header__nav-list" dir="rtl">
+            <li>
+              <a class="header__nav-link" href="#"> خانه </a>
+            </li>
+
+            <li>
+              <a class="header__nav-link" href="#"> درباره ما </a>
+            </li>
+
+            <li>
+              <a class="header__nav-link" href="#"> ارتباط با ما </a>
+            </li>
+        
+          </ul>
+        </nav>
+            <span class="header__divider"></span>
+          <img
+            class="header__logo-image"
+            src="./images/logo.jpg"
+            alt="User Avatar"
+          />
+      </div>
+    </header>
+
+    <main style="padding: 50px 20px">
+
+      <section class="hero-slider">
+                <div class="hero-slider__track">
+                    <div class="hero-slider__slide hero-slider__slide--active">
+            <img
+              src="./images/images (2).jpg"
+              alt="image 1"
+              class="hero-slider__image"
+            />
+          </div>
+
+          <div class="hero-slider__logo-wrapper">
+            <img src="./images/logo.jpg" alt="logo" class="hero-slider__logo">
+          </div>
+
+                    <div class="hero-slider__slide">
+            <img
+              src="./images/images (3).jpg"
+              alt="راسته گوسفندی"
+              class="hero-slider__image"
+            />
+          </div>
+
+                <button
+          type="button"
+          class="hero-slider__btn hero-slider__btn--prev"
+          aria-label="اسلاید قبلی"
+        >
+          &#10095;
+        </button>
+
+        <button
+          type="button"
+          class="hero-slider__btn hero-slider__btn--next"
+          aria-label="اسلاید بعدی"
+        >
+          &#10094;
+        </button>
+
+      </section>
+
+      <section class="category-row">
+  <ul class="category-row__list">
+    
+    <li class="category-row__item">
+      <a href="#" class="category-row__link">
+        <img src="./images/meet.png" alt="" class="category-row__circle">
+        <span class="category-row__label">گوشت</span>
+      </a>
+    </li>
+
+    <li class="category-row__item">
+      <a href="#" class="category-row__link">
+        <img src="/images/chicken.png" alt="" class="category-row__circle">
+        <span class="category-row__label">مرغ</span>
+      </a>
+    </li>
+
+    <li class="category-row__item">
+      <a href="#" class="category-row__link">
+          <img src="/images/sausage .png" alt="" class="category-row__circle">
+        <span class="category-row__label">سوسیس</span>
+      </a>
+    </li>
+
+    <li class="category-row__item">
+      <a href="#" class="category-row__link">
+          <img src="/images/milk.png" alt="" class="category-row__circle">
+        <span class="category-row__label">لبنیات</span>
+      </a>
+    </li>
+
+    <li class="category-row__item">
+      <a href="#" class="category-row__link">
+          <img src="/images/egg.png" alt="" class="category-row__circle">
+        <span class="category-row__label">تخم مرغ</span>
+      </a>
+    </li>
+
+     <li class="category-row__item">
+      <a href="#" class="category-row__link">
+          <img src="/images/sandwich .png" alt="" class="category-row__circle">
+        <span class="category-row__label">ساندویچ</span>
+      </a>
+    </li>
+
+  </ul>
+</section>
+
+
+<section class="product-slider" >
+    <header class="product-slider__header">
+    <div class="product-slider__titles">
+      <h2 class="product-slider__title">انواع کالباس</h2>
+      <p class="product-slider__subtitle">خالی</p>
+    </div>
+    <a href="#" class="product-slider__more-link">
+      مشاهده همه
+      <span class="product-slider__more-icon">&#10094;</span>
+    </a>
+  </header>
+
+    <div class="product-slider__body">
+        <button class="product-slider__nav-btn" >&#10095;</button>
+
+        <div class="product-slider__track">
+
+            <article class="product-card">
+        <a href="#" class="product-card__link">
+          <div class="product-card__image-box">
+            <img src="images/ژامبون مرغ.jpg" alt="" class="product-card__image">
+          </div>
+          <h3 class="product-card__title">ژامبون مرغ 90 درصد سوان وزن 100 گرم</h3>
+          <div class="product-card__price-row">
+                                  </div>
+          <div class="product-card__final-price">
+            <span class="product-card__amount">188,000</span>
+            <span class="product-card__currency">تومان</span>
+          </div>
+        </a>
+      </article>
+
+            <article class="product-card">
+        <a href="#" class="product-card__link">
+          <div class="product-card__image-box">
+            <img src="images/کالباس مرغ و قارچ.jpg" alt="" class="product-card__image">
+          </div>
+          <h3 class="product-card__title">کالباس مرغ و قارچ 70 درصد سوان وزن 250 گرم</h3>
+          <div class="product-card__price-row">
+            <span class="product-card__badge">10%</span>
+            <span class="product-card__old-price">500,000</span>
+          </div>
+          <div class="product-card__final-price">
+            <span class="product-card__amount">450,000</span>
+            <span class="product-card__currency">تومان</span>
+          </div>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+  
+    </main>
+
+    <footer class="footer">
+  <div class="footer__container">
+
+   
+    <div class="footer__column footer__column--nav">
+      <div class="footer__logo-wrapper">
+        <!-- <img src="logo.jpg" alt="پروتئین فلامیرکا" class="footer__logo" /> -->
+      </div>
+      <ul class="footer__menu">
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">خانه</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">بلاگ</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">درباره ما</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">تماس با ما</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">سوالات متداول</a></li>
+      </ul>
+    </div>
+
+   
+    <div class="footer__column footer__column--contact">
+      <div class="footer__contact-item">
+        <i class="fa fa-map-marker footer__icon" aria-hidden="true"></i>
+        <span>تهران،پونک،ایران زمین شمالی،پلاک 17</span>
+      </div>
+
+       <div class="footer__map-wrapper">
+    <iframe 
+      class="footer__map-frame"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1484.4403752666926!2d51.32330287206521!3d35.76094273816455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1788848016066!5m2!1sen!2s" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="strict-origin-when-cross-origin">
+    </iframe>
+  </div>
+
+      <div class="footer__contact-item">
+        <i class="fa fa-phone footer__icon" aria-hidden="true"></i>
+        <span>تلفن : 09391074048</span>
+      </div>
+
+      <div class="footer__socials">
+        <a href="#" class="footer__social-link" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="footer__social-link" aria-label="WhatsApp"><i class="fa fa-whatsapp"></i></a>
+        <a href="#" class="footer__social-link" aria-label="Telegram"><i class="fa fa-telegram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer__column footer__column--about">
+      <h3 class="footer__title">
+        <i class="fa fa-info-circle footer__title-icon" aria-hidden="true"></i>
+     پروتئین فلامیرکا
+      </h3>
+      <p class="footer__desc">
+        عرضه کننده محصولات گوشتی پروتئینی کاملاً بهداشتی و تایید شده
+      </p>
+      
+      <div class="footer__enamad-box">
+        <img src="./images/نماد.webp" alt="نماد اعتماد الکترونیکی" class="footer__enamad-img" />
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer__bottom">
+    <p>Design by <a href="#"></a></p>
+  </div>
+</footer>
+
+  </body>
+</html>
